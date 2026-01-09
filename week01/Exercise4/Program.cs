@@ -4,6 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise4 Project.");
+        List<string> names = new List<string>();
+        names.Add("Abigail");
+        names.Add("Masitsa");
+        names.Add("Malina");
+        foreach (string name in names)
+        {
+            Console.WriteLine(name);
+        }
     }
 }
